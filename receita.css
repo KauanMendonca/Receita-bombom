@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffdfd4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: #555;
+text-align: center;
+}
+
+
+.ingredientes {
+    display: inline-block; /* Faz com que a div ocupe apenas o espaço necessário em volta do conteúdo */
+    border: 2px solid #000000; /* Adiciona uma borda sólida com 2px de largura e cor cinza claro */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modo{
+    display: inline-block; /* Faz com que a div ocupe apenas o espaço necessário em volta do conteúdo */
+    border: 2px solid #000000; /* Adiciona uma borda sólida com 2px de largura e cor cinza claro */
+    padding: 10px; /* Adiciona um espaçamento interno de 10px */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+}
+
+.navbar {
+  text-align: center;
+  background-color: #52170b;
+  padding: 10px 0;
+}
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 10px;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: #ff0000;
+  transition: 0.2s;
+  border-bottom: 1px solid #ff0000;
+  padding: 0.5rem;
+}

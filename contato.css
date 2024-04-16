@@ -1,0 +1,82 @@
+body{
+  font-family: Arial, sans-serif;
+background-color: #ffdfd4;
+margin: 0;
+padding: 10px;
+    }
+    .navbar {
+      text-align: center;
+      background-color: #52170b;
+      padding: 10px 0;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #ffffff;
+      margin: 0 10px;
+      padding: 0.3rem;
+      cursor: pointer;
+    }
+    .navbar a:hover {
+      color: #ff0000;
+      transition: 0.2s;
+      border-bottom: 1px solid #ff0000;
+      padding: 0.5rem;
+    }
+
+  .container {
+      width: 80%;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  form {
+      max-width: 500px;
+      margin: 0 auto;
+  }
+
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
+
+  textarea {
+      height: 150px;
+  }
+
+  button[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ffbfaa;
+      color: #000000;
+      font-size: 16px;
+      cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+      background-color: #ff0000;
+      color: #ffdfd4;
+  }
